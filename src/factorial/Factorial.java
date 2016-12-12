@@ -6,9 +6,8 @@ public class Factorial {
 
         int f = 1;
         int j = 8;
-        int i;
 
-        for (i = j; i >= 1; i--) {
+        for (int i = j; i >= 1; i--) {
             f = f * i;
         }
 
